@@ -1,7 +1,6 @@
 FROM ubuntu:18.04
 
-ARG RELEASE_TAG
-
+ARG RELEASE_TAG=openvscode-server-v1.60.2
 ARG USERNAME=openvscode-server
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
